@@ -1,0 +1,126 @@
+.logo{
+    width: auto;  
+    height: auto;  
+    text-align: center;  
+    padding: 5px;  
+}
+
+header{
+    display: flex; 
+    justify-content: start;
+    text-align: center;
+    background-color: #18181a;
+    height: 70px;
+}
+
+h1{
+    padding-top: auto ;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 19px;
+    margin-left: 200px;    
+  }
+  
+  nav li {
+      
+    display: inline;
+    margin-right: 190px; /* Espacio entre los botones */
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el espaciado interno según tus preferencias */
+    background-color: #131215; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    border-radius: 5px; /* Añade esquinas redondeadas a los botones */
+    transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
+  }
+  
+  nav a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+  }
+  
+body {
+    background-color: #131215;
+    font-family: sans-serif;
+    color: #fbfaf5;
+    background-image: url('fondos/3648482.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+  font-size: 30px;
+    text-align: center;
+}
+form {
+    font-size: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #131215;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #003e87;
+}
+
+div {
+    padding: 40px;
+    margin-top: 10px;
+    background-color: #18181a;
+    width: 600px;
+    height: 550px;
+}
+footer section div {
+    margin-top: 200px;
+    background-color: #18181a;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    text-align: left; 
+    padding: 19px; 
+  }
+  
+  footer section div p {
+    color: #fff;
+    text-align: center;
+  }
+  footer section div p li a {
+    color: #fff;
+    text-align: center;
+  }
+
+  

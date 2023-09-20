@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicacion de pagos"> 
+    <meta name="author" content="Samuel esteban Acosta Garcia">
+    <title>Cwallet-login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="iconosxD/favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <img class="logo"src="iconosxD/logo.png" alt="">
+        <h1>Cwallet</h1>
+        <nav>
+            <ul>
+                <li><a href="aboutUs.html">Sobre Nosotros</a></li>
+                <li><a href="manillas.html">Catalogo</a></li>
+                <li><a href="index.html">Login</a></li>
+                <li><a href="registarse.html">Registrate</a></li>   
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <div class="divLogin">
+                <p class="Piniciarsesion">Iniciar Sesión</p>
+                    <form id="loginForm">
+                        <label for="username">Nombre de usuario</label><br>
+                        <input type="text" id="username" name="username" required><br><br>
+                        <p id="mensajeUser"></p>
+                        <label for="password">Contraseña</label><br>
+                        <input type="password" id="password" name="password" required><br><br>
+                        <p id="mensajePass"></p>
+                        <input id="IniciarSesion" type="submit" value="Iniciar Sesión"><br><br>
+                        <li><a href="registarse.html">No tienes cuenta? Registrate!</a></li><br>
+                        <p id="mensajeIncioBtn"></p>
+                    </form>            
+            </div>
+        </section>
+        <script>
+            // Función para manejar el envío del formulario
+            document.getElementById("loginForm").addEventListener("submit", function (e) {
+                e.preventDefault(); // Evita que se recargue la página al enviar el formulario
+                let username = document.getElementById("username").value;
+                let password = document.getElementById("password").value;
+                
+                // Verifica si los valores ingresados son válidos (puedes personalizar esta lógica)
+                if (username === "admin" && password === "123") {
+                    document.getElementById("mensajeIncioBtn").innerHTML = "Inicio de sesión exitoso.";
+                }
+                else {
+                    document.getElementById("mensajePass").innerHTML = "Nombre de usuario y/o contraseña incorrectos";
+                }
+            });
+        </script>  
+    </main>
+    <footer>
+        <section>
+            <div>
+                <p>Cwallet 2023 &copy;  . todos los derechos reservados.</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

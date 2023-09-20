@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* Estilos para el encabezado */
+ header {
+  display: flex; 
+  justify-content: start;
+  text-align: center;
+  background-color: #18181a;
+  height: 70px;
+}
+body{
+  background-color: #131215;
+  background-image: url(fondos/pxfuel.jpg);
+  background-size:auto; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+  background-repeat:no-repeat; /* Evita que la imagen de fondo se repita */  
+  font-family: comfortaa,sans-serif;
+  color:#fbfaf5;
+}
+.logo {
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+h1 {
+  padding-top: auto ;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 19px;
+  margin-left: 200px;
+}
+
+nav li {
+  display: inline;
+    margin-right: 190px; /* Espacio entre los botones */
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #131215;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}
+
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #18181a;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Estilos para las secciones */
+section {
+  background-color: #18181a;
+  padding: 20px;
+  width: 1000px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+section div {
+  text-align: left;
+}
+
+section h2 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+section p {
+  font-size: 18px;
+  color: #9b9a9a;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+#informacion {
+  margin-top: 100px;
+}
+#vision {
+  margin-left: 800px;
+}
+
+
+
+
+

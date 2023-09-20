@@ -1,0 +1,39 @@
+
+
+1. Pantalla de inicio
+
+2. Registro de usuario nuevo
+2.1 Formulario de datos 
+2.2 Verificación de email
+2.3 Configuración de método de pago
+
+3. Inicio de sesión de usuario registrado
+3.1 Campos email y contraseña
+3.2 Opción "Olvidé contraseña"
+
+4. Pantalla principal después de inicio de sesión 
+4.1 Saldo disponible
+4.2 Últimas transacciones
+4.3 Opciones de menú
+
+5. Enviar dinero
+5.1 Ingresar monto y destinatario
+5.2 Confirmar datos de transacción
+5.3 Ingresar código de seguridad
+5.4 Notificación de éxito
+
+6. Solicitar dinero
+6.1 Ingresar monto y seleccionar destinatario
+6.2 El destinatario recibe notificación 
+6.3 Destinatario puede aceptar o rechazar
+
+7. Recargar saldo
+7.1 Elegir método de pago vinculado
+7.2 Ingresar monto a recargar
+7.3 Confirmar recarga
+
+8. Historial de transacciones
+
+9. Perfil de usuario
+
+Este formato numerado permite ver el flujo de pantallas y procesos de manera ordenada. Se pueden agregar más detalles y subtareas en cada paso principal.

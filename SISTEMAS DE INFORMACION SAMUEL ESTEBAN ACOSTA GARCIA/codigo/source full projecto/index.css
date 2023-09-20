@@ -1,0 +1,162 @@
+body{
+  background-color: #131215;
+  font-family: sans-serif;
+  font-size: 20px;
+  color:#fbfaf5;
+  background-image: url('fondos/3648482.png'); 
+  background-size:cover ; 
+  background-repeat: no-repeat; 
+  background-position: center bottom;
+}
+.borderLogin{
+  width: 300px;
+  height: 500px;
+}
+ section {
+    
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divLogin{
+  padding: 40px;
+    margin-top: 10px;
+    background-color: #18181a;
+    width: 600px;
+    height: 550px;
+    
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+div input[type="submit"] {
+  background-color: #131215;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+div input[type="submit"]:hover{
+  background-color: #0056b3;
+}
+#IniciarSesion{
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+div li a{
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px 20px; 
+  background-color: #131215; 
+  color: #fff; 
+  text-decoration: none;
+  marker-start: none;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+div li a:hover{
+  background-color: #0056b3;
+
+}
+
+header{
+  display: flex; 
+  justify-content: start;
+  text-align: center;
+  background-color: #18181a;
+  height: 70px;
+    
+
+}
+h1{
+  padding-top: auto ;
+}
+.logo{
+  width: auto;  
+  height: auto;  
+  text-align: center;  
+  padding: 5px;  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 19px;
+  margin-left: 200px;    
+}
+li {
+  list-style-type: none; /* Elimina el marcador de lista */
+}
+
+nav li {
+    
+  display: inline;
+  margin-right: 190px; 
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #131215; 
+  color: #fff; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+  background-color: #0056b3; 
+}
+
+section{
+  align-content: center;
+  align-self: center;
+}
+ 
+p{
+  font-size: 20px;
+  font-weight: bold;
+  color:#c93939;
+}
+
+.Piniciarsesion{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+footer section div {
+  margin-top: 200px;
+  background-color: #18181a;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  text-align: left; 
+  padding: 19px; 
+}
+
+footer section div p {
+  color: #fff;
+  text-align: center;
+}
+footer section div p li a {
+  color: #fff;
+  text-align: center;
+}
+
+#mensajeIncioBtn{
+  color: #0056b3;
+}
+  
+  
